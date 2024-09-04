@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELL ME SOMETHING YOURSELF AS A STUDENT</title>
+    <style>
+        body{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2{
+            font-size: 26px;
+        }
+
+        .banner{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(my-pic.JPG);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .nav{
+            width: 85%;
+            margin: auto;
+            padding: 35px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin:  0 20px;
+            position: relative;
+        }
+
+        .nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 19px;
+            text-transform: uppercase;
+        }
+
+        .nav ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background: #0174BE;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            transition: 0.5s;
+        }
+
+        .nav ul li:hover::after{
+            width: 100%;
+        }
+
+        .logo{
+            width: 110px;
+            cursor: pointer;
+        }
+
+        .image_stone {
+            position: absolute;
+            width: 27%;
+            bottom: 0%; 
+            right: 10%; 
+            max-width: 50%; 
+            float: right;
+        }
+
+        .header-tag{
+            display: inline-block;
+            font-family: sans-serif;
+            padding-top: 10px;
+            padding-left: 85px;
+        }
+
+        .description{
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: white;
+            width: 750px;
+            line-height: 30px;
+            margin-left: 50px;
+            margin-top: 40px;
+            border: solid;
+            border-radius: 14px;
+            padding: 12px;
+            border-color: #0174BE;
+            box-shadow: #FFC436;
+        }
+
+        .left-section {
+            padding: 20px; 
+            width: 50%;
+            position: absolute;
+            top: 58%; 
+            left: 5%; 
+            transform: translateY(-50%); 
+        }
+
+        .left-section h2 {
+            font-size: 46px;
+            margin-top: 30px;
+            padding-left: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 0.3;
+            text-transform: uppercase;
+        }
+
+        .title-tag{
+            color: #FFC436;
+            font-size: 28px !important;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .button-section{
+            margin-left: 55px;
+        }
+
+        .subs{
+            background-color: #0174BE;
+            color: white;
+            font-size: 14px;
+            font: Arial;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: opacity 0.18s, padding 1s;
+        }
+
+        .subs-two{
+            background-color: #FFC436;
+            color: white;
+            font-size: 14px;
+            font: Arial;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: opacity 0.18s, padding 1s;
+        }
+
+        .subs:hover, .subs-two:hover{
+            opacity: 0.7;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .subs:active, .subs-two:active{
+            opacity: 0.4;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="nav">
+            <img src="nthndkid-logo.png" class="logo">
+            <ul>
+                <li><a href="lovepupt.html">Home</a></li>
+                <li><a href="lovemyself.html">About Myself</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy And Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="right-section">
+            <img src="iconic.png"  class="image_stone">
+        </div>
+
+        <div class="left-section">
+            <h2>Raphael Johnathan F. Flores</h2>
+            <h2 class="title-tag">Aspiring IT Professional & Entrepreneur</h2>
+
+            <p class="description">
+                As a student, I embody a keen sense of objectivity, always striving to approach tasks and challenges with a clear and rational mindset. 
+                My innovative spirit drives me to explore new ideas and solutions, constantly seeking to push the boundaries of knowledge and creativity.
+                With a sharp intellect, I adeptly navigate through academic complexities, demonstrating a keen understanding of diverse subjects and concepts. 
+                Flexibility is my forte, allowing me to adapt seamlessly to changing situations and environments, ensuring optimal performance in all endeavors. 
+                Considered a jack of all trades in academic pursuits, I excel in various disciplines, leveraging my diverse skills and knowledge to tackle any academic task with confidence and precision.
+               <br><br> 
+                As a student, I'm driven by curiosity and innovation. I tackle challenges with creativity and thrive on pushing boundaries. 
+                Balancing multiple commitments, I excel academically while embracing new experiences to make a meaningful impact.
+            </p>
+
+            <div class="button-section">
+                <button class="subs">GET TO KNOW ME MORE</button>
+                <button class="subs-two">MESSAGE ME!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
